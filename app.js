@@ -48,19 +48,15 @@ function updateFilters() {
     delete filters[filterID];
   }
 
-
-  updateTable();
-
 }
 
-function updateTable()
+function updateTable(){
 
 d3.selectAll("input").on("change", updateFilters);
-
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
   
-  
+}
   
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
@@ -92,8 +88,17 @@ d3.selectAll("input").on("change", updateFilters);
   }
   
   // 2. Attach an event to listen for changes to each filter
-  d3.selectAll("#filter-btn").on("click", handleClick);
   
+  
+  function handleClick() {
+    let date = d3.select("#datetime").property("value");
+    let city = d3.select("#city").property("value");
+    let state = d3.select("#state").property("value");
+    let country = d3.select("#country").property("value");
+    let shape = d3.select("#shape").property("value");
+ filteredData()
+  }
+  d3.selectAll("#filter-btn").on("click", handleClick);
   // Build the table when the page loads
   buildTable(tableData);
   
