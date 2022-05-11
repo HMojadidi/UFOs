@@ -20,6 +20,6 @@ to loop through all of the filters and keep any data that matches the filter val
 
 ## Summary:
 
-I found working on this assignment intriguing and it gave me a better understanding of JavaScript and HTML. One of the drawbacks was that I believe an average user would not realize that the site has the means to 'refresh' it's table. I would change two items on this webpage to make it more user-friendly. First I would change the location of the 'UFO Sightings' button to below the 'Filter Table' button as it it not very obvious to a user. Secondly I would make the button stand out more visually as a 'Refresh button' to help the user navigate the site better.
+I found working on this assignment intriguing and it gave me a better understanding of JavaScript and HTML. In my opinion, a drawback to the design was that an average user would not realize that the site has the means to 'refresh' the table. I would change two items on this webpage to make it more user-friendly. First I would change the location of the 'UFO Sightings' button to below the 'Filter Table' button as it it not very obvious to a user. Secondly I would make the button stand out more visually as a 'Refresh button' to help the user navigate the site better.
 
 
