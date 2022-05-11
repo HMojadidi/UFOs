@@ -2,7 +2,7 @@
 
 ## Overview of Project:
 
-Dana created a webpage and interactive table which shows data on UFO sightings. She'd like to expand her search criteria options to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. Filters will include searching by date, city, state, country and shape.
+Dana created a webpage and interactive table which shows data on UFO sightings. She'd like to expand her search criteria options to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. The filters included searching by date, city, state, country and shape.
 
 ## Results:
 
