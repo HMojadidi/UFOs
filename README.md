@@ -18,6 +18,10 @@ filteredData=filteredData.filter(row=>row[key]===value);
 });
 to loop through all of the filters and keep any data that matches the filter values. Finally, the table was rebuilt using the filtered data. Also, an event to listen for changes to each filter was also attached. Finally the table will be built when the page loads. 
 
+
+<img width="1679" alt="Table before filter application" src="https://user-images.githubusercontent.com/95712234/167770394-64562b9e-f5a8-472f-8ff0-b071c8896660.png">
+
+
 ## Summary:
 
 I found working on this assignment intriguing and it gave me a better understanding of JavaScript and HTML. In my opinion, a drawback to the design was that an average user would not realize that the site has the means to 'refresh' the table. I would change two items on this webpage to make it more user-friendly. First I would change the location of the 'UFO Sightings' button to below the 'Filter Table' button as it it not very obvious to a user. Secondly I would make the button stand out more visually as a 'Refresh button' to help the user navigate the site better.
