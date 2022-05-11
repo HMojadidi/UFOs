@@ -54,10 +54,8 @@ console.log("buildTable");
 }
 
 
-d3.selectAll("input").on("change", updateFilters);
-
     // 6. Call function to apply all filters and rebuild the table
-
+  d3.selectAll("input").on("change", updateFilters);
   
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
