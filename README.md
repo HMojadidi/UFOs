@@ -10,9 +10,9 @@ The app.js file starts out by importing the dataset from data.js and I went ahea
 
 The index.html file was used from my classwork which had all the constructs of the webpage which would display the data. I added the new syntax for the Filter Search table which would take the user's inputs for dates, city, state, country and UFO shape. 
 
-Back on app.js, I created a variable to keep track of all the filters as an object. The function updateFilters() is used to update the filters. I then again saved the element, value and id of the filter that was changed as a variable. If the filter value was entered, I then added that filterID and value to the filters list. Otherwise the filter would be cleared from the filters object.
+Back on app.js, I created a variable to keep track of all the filters as an object. The function updateFilters() was used to update the filters. I then again saved the element, value and id of the filter that was changed as a variable. If the filter value was entered, I then added that filterID and value to the filters list. Otherwise the filter would be cleared from the filters object.
 
-The function was afterwards called to apply all filters and rebuild the table. Function filterTable was used to filter the table when the data is entered. the filtered data was then set to tableData. Afterwards I used 
+The function was afterwards called to apply all filters and rebuild the table. Function filterTable was used to filter the table when the data is entered. The filtered data was then set to tableData. Afterwards I used 
 Object.entries(filters).forEach(([key, value]) = { 
 filteredData=filteredData.filter(row=>row[key]===value);
 });
