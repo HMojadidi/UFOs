@@ -18,8 +18,11 @@ filteredData=filteredData.filter(row=>row[key]===value);
 });
 to loop through all of the filters and keep any data that matches the filter values. Finally, the table was rebuilt using the filtered data. Also, an event to listen for changes to each filter was also attached. Finally the table will be built when the page loads. 
 
+Now that the JavaScript and HTML coding is complete, let's look at the webpage:
 
 <img width="1679" alt="Table before filter application" src="https://user-images.githubusercontent.com/95712234/167770394-64562b9e-f5a8-472f-8ff0-b071c8896660.png">
+
+In order to conduct a search, one may enter the required info in the 'date', 'city', 'state', 'country' and 'shape' search boxes to filter the  UFO sightings data. Upon entering the desired criteria and clicking the 'Filter Table' button, the webpage will produce the filtered results. In order to refresh the page, one may click the 'UFO Sightings' button located in the top left corner of the webpage.
 
 
 ## Summary:
